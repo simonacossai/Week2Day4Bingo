@@ -22,4 +22,14 @@ window.onload = function () {
     child.appendChild(numH3);
     table.appendChild(child);
   }
+
+const random = document.querySelector('#random');
+  random.onclick = function (event) {
+  
+    let selected = document.querySelector(".selected");
+    if (selected) {
+      selected.classList.remove("selected");
+    }
+    event.currentTarget.classList.add("selected");
+  };
 };
