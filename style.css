@@ -1,0 +1,61 @@
+body {
+    background-color: #f8f8f8;
+    color: #1b1b1b;
+    max-width: 768px;
+    margin: 0 auto;
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 64px;
+    margin-bottom: 0;
+  }
+
+  h2 {
+    font-size: 36px;
+    margin-bottom: 1rem;
+  }
+
+  #table {
+    background-color: #1b1b1b;
+    color: white;
+    max-width:1000px;
+    margin-bottom: 20px;
+    border: 6px solid #1b1b1b;
+    border-radius: 8px;
+  }
+
+  .day {
+    display: inline-block;
+    width:12%;
+    text-align: center;
+    height:12%;
+    border: 1px solid transparent;
+  }
+ 
+
+
+
+  input[value="Save Meeting"] {
+    background-color:#0051ff;
+    color: #1b1b1b;
+    cursor: pointer;
+    min-height: 44px;
+    width: 200px;
+  }
+
+  .selected {
+    background-color:  #0051ff;
+    border-radius: 100%;
+  }
+
+
+
+  ul {
+    padding: 0;
+  }
+
+  li {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }

@@ -4,8 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+     <!--
+        BINGO CHALLENGE!!!
+        Create programmatically (with JS) a BINGO board with 76 cells, from 1 to 76.
+        Create a button to randomize a number from 1 to 76. The same number should be highlighted on the bingo board
+        EXTRA: 
+        - Take ALWAYS a new number (avoid randoming 10 3 times for example)
+        - Create a USER BOARD with random 24 numbers that highlights as the main board does
+        - Let the user choose HOW MANY user boards he's willing to play with and create them.
+    -->
+
+
+    <h1>Bingo</h1>
+    <div id="table">
+      <!-- days cells will be inserted here -->
+    </div>
+   
+        <input type="button" value="Save Meeting"  />
+      </div>
+    </div>
+    <br />
+    <div id="appointments">
+      <h2>Appointments for the day:</h2>
+      <ul id="appointmentList"></ul>
+      <!-- this will receive appointments via js -->
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>
